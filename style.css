@@ -372,7 +372,7 @@ main {
 #testimonials blockquote p span {
 font: 700 3rem serif;
 position: absolute;
-left: -1.9rem;
+left: -1.8rem;
 top: -0.8rem;
 color: var(--base-color);
 }
@@ -381,9 +381,28 @@ color: var(--base-color);
 height: 2.5rem;
 width: 2.5rem;
 clip-path: circle();
+margin-right: 0.5rem;
 
 }
 
 #testimonials cite{
+display: flex;
+align-items: center;
 
+}
+
+
+/*swiper*/
+.swiper-slide{
+  height: auto;
+  padding: 4rem 1rem;
+}
+
+.swiper-pagination-bullet{
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: var(--base-color);
 }
