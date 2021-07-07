@@ -52,3 +52,25 @@
 .icon-phone:before {
   content: "\e908";
 }
+.icon-profile:before {
+  content: "\e901";
+}
+.icon-card:before {
+  content: "\e901";
+}
+.icon-id:before {
+  content: "\e901";
+}
+.icon-vcard:before {
+  content: "\e901";
+}
+.icon-scissors:before {
+  content: "\e900";
+}
+
+.icon-cut:before {
+  content: "\e900";
+}
+.icon-blade:before {
+  content: "\e900";
+}
