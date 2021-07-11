@@ -121,7 +121,7 @@ nav.show ul.grid {
   cursor: pointer;
 }
 
-nav .icon-x {
+nav .icon-close {
   visibility: hidden;
   opacity: 0;
 
@@ -132,7 +132,7 @@ nav .icon-x {
   transition: 0.2s;
 }
 
-nav.show div.icon-x {
+nav.show div.icon-close {
   visibility: visible;
   opacity: 1;
   top: 1.5rem;
@@ -352,12 +352,11 @@ main {
   margin-bottom: 0.75rem;
 }
 
-
-#testimonials{
-  background:white
+#testimonials {
+  background: white;
 }
 
-#testimonials .container{
+#testimonials .container {
   margin-left: 0;
   margin-right: 0;
 }
@@ -368,58 +367,54 @@ main {
   margin-bottom: 0;
 }
 
-#testimonials blockquote{
+#testimonials blockquote {
   padding: 2rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-radius: 0.25rem;
 }
 
-#testimonials blockquote p{
+#testimonials blockquote p {
   position: relative;
   text-indent: 1.9rem;
   margin-bottom: 1.5rem;
 }
 
 #testimonials blockquote p span {
-font: 700 3rem serif;
-position: absolute;
-left: -1.8rem;
-top: -0.8rem;
-color: var(--base-color);
+  font: 700 3rem serif;
+  position: absolute;
+  left: -1.8rem;
+  top: -0.8rem;
+  color: var(--base-color);
 }
 
-#testimonials cite img  {
-height: 2.5rem;
-width: 2.5rem;
-clip-path: circle();
-margin-right: 0.5rem;
-
+#testimonials cite img {
+  height: 2.5rem;
+  width: 2.5rem;
+  clip-path: circle();
+  margin-right: 0.5rem;
 }
 
-#testimonials cite{
-display: flex;
-align-items: center;
-
+#testimonials cite {
+  display: flex;
+  align-items: center;
 }
 
-#testimonials .testimonial  a i {
-  
+#testimonials .testimonial a i {
   font-size: 2rem;
-  color: hsla(var(--hue), 36%, 57%, 1)
+  color: hsla(var(--hue), 36%, 57%, 1);
 }
 
 /*swiper*/
-.swiper-slide{
+.swiper-slide {
   height: auto;
   padding: 4rem 1rem;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
   width: 0.8rem;
   height: 0.8rem;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
   background-color: var(--base-color);
 }
-
