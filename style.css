@@ -418,3 +418,33 @@ main {
 .swiper-pagination-bullet-active {
   background-color: var(--base-color);
 }
+
+/*===contact===*/
+
+#contact .grid {
+  gap: 4rem;
+}
+
+#contact .text p {
+  margin-bottom: 2rem;
+}
+
+#contact .button i {
+  font-size: 2rem;
+  margin-right: 0.6rem;
+}
+
+#contact ul.grid {
+  gap: 2rem;
+}
+
+#contact ul li {
+  display: flex;
+  align-items: center;
+}
+
+#contact ul li i {
+  font-size: 1.5rem;
+  margin-right: 0.6rem;
+  color: var(--base-color);
+}
