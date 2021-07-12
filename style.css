@@ -459,3 +459,30 @@ main {
 footer {
   background-color: var(--base-color);
 }
+
+footer .logo {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+footer .rights p {
+  color: #fff;
+  margin-bottom: 0.8rem;
+}
+
+footer i {
+  color: #fff;
+  font-size: 2rem;
+}
+
+footer .social {
+  display: flex;
+  gap: 3rem;
+}
+
+/*=======Responsivo======*/
+@media (min-width: 992px) {
+  .title {
+    font-size: 2.25rem;
+  }
+}
